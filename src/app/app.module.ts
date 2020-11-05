@@ -3,10 +3,12 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { RainbowDirective } from './rainbow.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    RainbowDirective
   ],
   imports: [
     BrowserModule,
